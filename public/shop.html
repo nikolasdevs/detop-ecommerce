@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body class="font-body">
+    <div
+      id="shop"
+      class="flex flex-col items-center justify-center h-full bg-white overflow-hidden scroll-my-0"
+    >
+      <header
+        class="h-24 md:h-32 bg-black w-full flex items-center justify-between xl:pl-56 px-8 md:px-24 xl:px-56 shadow-xl fixed top-0 z-50"
+      >
+        <a href="./index.html"
+          ><img class="h-16 md:h-24" src="./images/logo.avif" alt=""
+        /></a>
+
+        <nav class="text-white" id="menuScreen">
+          <ul
+            class="lg:flex lg:gap-24 lg:tracking-widest lg:justify-center lg:items-center hidden"
+          >
+            <li class="hover:text-amber-400 before">
+              <a href="./all.html">ALL</a>
+            </li>
+            <li class="hover:text-amber-400 before">
+              <a class="" href="./ladies.html">LADIES</a>
+            </li>
+            <li class="hover:text-amber-400 before">
+              <a href="./men.html">MEN</a>
+            </li>
+            <li class="hover:text-amber-400 before">
+              <a href="./kids.html">KIDS</a>
+            </li>
+            <li class="hover:text-amber-400 before">
+              <a href="./hoddies.html">HOODIES</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div>
+          <p class="text-sm md:text-base text-white cursor-pointer relative">
+            CART
+          </p>
+        </div>
+      </header>
+
+      <div class="w-full items-center flex mt-24 xl:mt-40">
+        <div id="menu" class="cursor-pointer mt-8 px-8">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 md:w-12 md:h-12"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
+
+        <nav
+          class="fixed hidden translate-x-6 xl:translate-x-12 top-16 xl:top-40 translate-y-32 w-48 h-1/2 z-10"
+          id="menuMobile"
+        >
+          <ul class="flex flex-col gap-16 tracking-widest text-sm md:text-base">
+            <li class="hover:text-amber-400 md:before">
+              <a href="./home.html">HOME</a>
+            </li>
+
+            <li
+              class="hover:text-amber-400 md:before flex items-center justify-between relative"
+            >
+              <a id="dropDownLink" class="cursor-pointer">SHOP</a>
+            </li>
+            <div id="dropDown" class="hidden -mt-8 ml-4">
+              <ul class="flex flex-col gap-8">
+                <li class="hover:text-amber-400 md:before">
+                  <a href="./shop.html">ALL</a>
+                </li>
+                <li class="hover:text-amber-400 md:before">
+                  <a href="./ladies.html">LADIES</a>
+                </li>
+                <li class="hover:text-amber-400 md:before">
+                  <a href="./men.html">MEN</a>
+                </li>
+                <li class="hover:text-amber-400 md:before">
+                  <a href="./kids.html">KIDS</a>
+                </li>
+                <li class="hover:text-amber-400 md:before">
+                  <a href="./hoodies.html">HOODIES</a>
+                </li>
+              </ul>
+            </div>
+
+            <li class="hover:text-amber-400 md:before">
+              <a href="./about.html">ABOUT</a>
+            </li>
+            <li class="hover:text-amber-400 md:before">
+              <a href="./contact.html">CONTACT</a>
+            </li>
+            <li class="hover:text-amber-400 md:before">
+              <a href="./help.html">HELP</a>
+            </li>
+            <li class="hover:text-amber-400 md:before">
+              <a href="./login.html">LOGIN</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div
+        class="h- h-full md:grid md:grid-cols-2 xl:grid xl:grid-cols-3 gap-6 max-w-screen-2xl mx-6  left-20 max"
+        id="imgBox"
+      >
+        <div class="img">
+          <img src="./images/men/c_m-shirt-3.webp" alt="" />
+          <div class="flex flex-col items-center">
+            <p class="tracking-widest text-sm md:text-base">
+              UNISEX COTTON T-SHIRT
+            </p>
+            <p class="text-sm md:text-base">$ <span>15.34</span></p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./images/men/m_hooded-2.webp" alt="" />
+          <div class="flex flex-col items-center">
+            <p class="tracking-widest text-sm md:text-base">
+              UNISEX COTTON T-SHIRT
+            </p>
+            <p class="text-sm md:text-base">$ <span>15.34</span></p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./images/women/w_long_sleeve.webp" alt="" />
+          <div class="flex flex-col items-center">
+            <p class="tracking-widest text-sm md:text-base">
+              UNISEX COTTON T-SHIRT
+            </p>
+            <p class="text-sm md:text-base">$ <span>15.34</span></p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./images/women/w_long_sleeve_2.webp" alt="" />
+          <div class="flex flex-col items-center">
+            <p class="tracking-widest text-sm md:text-base">
+              UNISEX COTTON T-SHIRT
+            </p>
+            <p class="text-sm md:text-base">$ <span>15.34</span></p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./images/men/m_loose_t-shirt.webp" alt="" />
+          <div class="flex flex-col items-center">
+            <p class="tracking-widest text-sm md:text-base">
+              UNISEX COTTON T-SHIRT
+            </p>
+            <p class="text-sm md:text-base">$ <span>15.34</span></p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./images/men/m_AOP_fashion_hoodie.webp" alt="" />
+          <div class="flex flex-col items-center">
+            <p class="tracking-widest text-sm md:text-base">
+              UNISEX COTTON T-SHIRT
+            </p>
+            <p class="text-sm md:text-base">$ <span>15.34</span></p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./images/women/w_classic.webp" alt="" />
+          <div class="flex flex-col items-center">
+            <p class="tracking-widest text-sm md:text-base">
+              UNISEX COTTON T-SHIRT
+            </p>
+            <p class="text-sm md:text-base">$ <span>15.34</span></p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./images/women/w_jersey_short.webp" alt="" />
+          <div class="flex flex-col items-center">
+            <p class="tracking-widest text-sm md:text-base">
+              UNISEX COTTON T-SHIRT
+            </p>
+            <p class="text-sm md:text-base">$ <span>15.34</span></p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./images/men/m_long_sleeve.webp" alt="" />
+          <div class="flex flex-col items-center">
+            <p class="tracking-widest text-sm md:text-base">
+              UNISEX COTTON T-SHIRT
+            </p>
+            <p class="text-sm md:text-base">$ <span>15.34</span></p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./images/men/m_baseball_jersey.webp" alt="" />
+          <div class="flex flex-col items-center">
+            <p class="tracking-widest text-sm md:text-base">
+              UNISEX COTTON T-SHIRT
+            </p>
+            <p class="text-sm md:text-base">$ <span>15.34</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
